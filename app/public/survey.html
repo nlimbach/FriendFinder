@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="jumbotron">
+        <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> FriendFinder</h1>
+        <hr>
+        <h2 class="text-center">Answer the questions below. When you are finished, click submit and we will match you with a friend. </h2>
+        <br>
+    </div>
+
+    <div class="container">
+        <label for="inputName">What is your name</label>
+        <input type="input" class="form-control" id="inputName" placeholder="name">
+    </div>
+    <div class="container">
+        <label for="inputPhoto">Please insert a link to your photo.</label>
+        <input type="input" class="form-control" id="inputPhoto" placeholder="photo">
+    </div>
+
+
+
+    <div class="container">
+        <h2 class="text-center">1. Are you outgoing?</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="outgoing" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outgoing" value ="2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outgoing" value ="3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outgoing" value ="4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outgoing"value ="5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">2. Are you outdoorsy</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="outdoorsy" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outdoorsy" value ="2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outdoorsy" value ="3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outdoorsy" value ="4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="outdoorsy"value ="5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">3. Do you like to play video games?</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="videoGames" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="videoGames" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="videoGames" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="videoGames" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="videoGames" value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center">4. Do you enjoy watching/participating in sports?</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="sports" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sports" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sports" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sports" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sports" value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">5. Do you enjoy Sunday Brunch</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="brunch" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="brunch" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="brunch" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="brunch" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="brunch"value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">6. Do you like animals</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="animals" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="animals" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="animals" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="animals" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="animals" value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">7. Do you consider yourself to be grumpy alot?</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="grumpy" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="grumpy" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="grumpy" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="grumpy" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="grumpy" value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">8. Do you like krabby pattys?</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="krabbypattys" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="krabbypattys" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="krabbypattys" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="krabbypattys" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="krabbypattys" value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center">9. Do you like music?</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="music" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="music" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="music" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="music" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="music"value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center">10. Are you spontaneous</h2>
+        <div class="text-center">
+            <label class="radio-inline">
+                <input type="radio" name="spontaneous" value = "1"> 1 - Not At All
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="spontaneous" value = "2"> 2 - A little
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="spontaneous" value = "3"> 3 - Somewhat
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="spontaneous" value = "4"> 4 - Most of the time
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="spontaneous" value = "5"> 5 - All the time!
+            </label>
+        </div>
+    </div>
+    <form class="text-center">
+        <button class = "btn btn-primary submit">Submit!</button>
+    </form>
+</div>
+
+
+</body>
+<script type="text/javascript">
+    $(".submit").on("click", function(event) {
+        event.preventDefault();
+
+
+
+        var q1 =  $('input[name="outgoing"]:checked').val();
+        var q2 =  $('input[name="outdoorsy"]:checked').val();
+        var q3 =  $('input[name="videoGames"]:checked').val();
+        var q4 =  $('input[name="sports"]:checked').val();
+        var q5 =  $('input[name="brunch"]:checked').val();
+        var q6 =  $('input[name="animals"]:checked').val();
+        var q7 =  $('input[name="grumpy"]:checked').val();
+        var q8 =  $('input[name="krabbypattys"]:checked').val();
+        var q9 =  $('input[name="music"]:checked').val();
+        var q10 =  $('input[name="spontaneous"]:checked').val();
+
+        var newFriend = {
+            name: $("#inputName").val().trim(),
+            photo: $("#inputPhoto").val().trim(),
+            scores:[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10]
+        };
+        console.log(q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10);
+
+
+
+        $.post("/api/friends", newFriend,
+            function(data) {
+
+                // If a table is available... tell user they are booked.
+                if (data) {
+                    alert("Yay! You have been officially added to our friendFinder database");
+                }
+
+                // If a table is available... tell user they on the waiting list.
+                else {
+                    alert("There was an error adding you to our database.");
+                }
+
+                // Clear the form when submitting
+                $("#inputName").val("");
+                $("#inputPhoto").val("");
+
+
+        });
+
+    });
+</script>
+</html>
